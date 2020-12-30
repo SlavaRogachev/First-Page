@@ -16,7 +16,7 @@ nav p{
     padding: 10px;
 }
 
-nav a:link {
+a:link {
     color: darkgoldenrod;
     text-decoration: none;
 }
@@ -26,7 +26,7 @@ nav a:visited {
     color: rgb(116, 86, 11);
 }
 
-nav a:hover {
+a:hover {
     color: rgb(231, 168, 8);
 }
 
@@ -64,7 +64,8 @@ section ul li{
 .note {
     text-align: right;
     font-style: oblique;
-    margin-right: 70px;
+    color: rgb(212, 157, 18);
+    margin-right: 10%;
 }
 
 main {
@@ -85,6 +86,22 @@ p {
 aside {
     width: 32%;
     margin-left: auto;
-    border: 1px solid red;
     margin-right: 10px;
+}
+
+aside p a:visited {
+    color: rgb(212, 157, 18);
+}
+
+aside p a:link {
+    color: rgb(212, 157, 18);
+}
+
+.answer {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 100px;
+    height: 1000px; 
+    width: 1000px;
 }
