@@ -38,15 +38,21 @@ h1 {
 body h2 {
     font-size: 50px;
     margin-top: 0;
-    margin-bottom: 160px;
+    margin-bottom: 20px;
+}
+
+body h3 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .center {
     text-align: center;
 }
 
-section h3 {
-    font-size: 30px;
+section h4 {
+    font-size: 35px;
 }
 
 section ul li{
@@ -56,6 +62,29 @@ section ul li{
 }
 
 .note {
-    margin-left: 40px;
+    text-align: right;
     font-style: oblique;
+    margin-right: 70px;
+}
+
+main {
+    width: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+}
+
+p {
+    margin: 3px;
+}
+
+.space {
+    height: 600px;
+}
+
+aside {
+    width: 32%;
+    margin-left: auto;
+    border: 1px solid red;
+    margin-right: 10px;
 }
